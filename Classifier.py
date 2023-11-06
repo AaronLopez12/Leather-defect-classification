@@ -7,7 +7,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import StratifiedKFold 
 
 
-# Carga tus datos en un DataFrame de pandas (reemplaza 'data.csv' con tu archivo de datos)
+# Carga de datos
 data = pd.read_csv('base_de_datos.csv')
 
 X = data.iloc[: ,2:]
